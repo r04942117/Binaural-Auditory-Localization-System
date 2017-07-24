@@ -35,7 +35,7 @@ for i in range(0,40):
 # 讀取 Input data
 def getSignal():
     dataL=np.reshape(swL, (40, -1))
-	dataR=np.reshape(swR, (40, -1))
+    dataR=np.reshape(swR, (40, -1))
     length = len(dataL[0])
     return dataL, dataR, length
 LeftSignal, RightSignal, length = getSignal()
